@@ -1,0 +1,126 @@
+body{
+    background: rgb(0, 0, 0);
+}
+.search{
+    display: flex;
+    height: 100px;
+    width: 1400px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 50px;
+    background: rgb(75,0,0);
+    background: radial-gradient(circle, rgba(75,0,0,1) 0%, rgba(36,2,2,1) 53%);
+    border-radius: 20px;
+}
+#logo{
+    height: 90px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.menue{
+    display: flex;
+}
+
+#menue{
+    margin-top: 40px;
+    color: white;
+    margin-left: 60px;
+    
+}
+#motercycle{
+    margin-top: 40px;
+    color: white;
+    margin-left: 60px;
+}
+
+#dealers{
+    margin-top: 40px;
+    color: white;
+    margin-left: 60px;
+}
+#testride{
+    margin-top: 40px;
+    color: white;
+    margin-left: 60px;
+}
+#bookonline{
+    margin-top: 40px;
+    color: white;
+    margin-left: 60px;
+}
+
+.icon{
+    margin-top: 40px;
+    color: white;
+    margin-left: 60px;
+    
+}
+#yezdi_logo{
+    width: 80px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#perakpng{
+    width: 550px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.content{
+    display: flex;
+}
+
+#perak-text{
+    margin-top:100px ;
+    margin-left: 40px;
+
+}
+#while{
+    margin-top: 150px;
+    width: 300px;
+    height: 200px;
+}
+.price{
+    color: white;
+    font-size: 70px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    max-height: 40px;
+}
+.showroom{
+    color: rgb(182, 182, 182);
+    margin-top: 80px;
+    margin-left: 140px;
+}
+.showroom{
+    display: flex;
+}
+.videosandphotos{
+    display: flex;
+}
+.video{
+    color: white;
+}
+.videoicon{
+    color: white;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.gallery{
+    color: white;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.view{
+    color: white;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+#darktext{
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+}
