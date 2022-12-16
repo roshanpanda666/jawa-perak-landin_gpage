@@ -1,12 +1,21 @@
 body{
     background: rgb(0, 0, 0);
+    
+}
+.container{
+    display: flex;
+}
+.upper{
+    display: flex;
+    align-items: center;
 }
 .search{
     display: flex;
     height: 100px;
     width: 1400px;
     border: 1px solid rgb(0, 0, 0);
-    margin-left: 50px;
+    margin: auto;
+    align-items: center;
     background: rgb(75,0,0);
     background: radial-gradient(circle, rgba(75,0,0,1) 0%, rgba(36,2,2,1) 53%);
     border-radius: 20px;
@@ -19,40 +28,46 @@ body{
 }
 .menue{
     display: flex;
+    
 }
 
 #menue{
     margin-top: 40px;
     color: white;
     margin-left: 60px;
-    
+    transition-duration: 1s;
 }
 #motercycle{
     margin-top: 40px;
     color: white;
     margin-left: 60px;
+    transition-duration: 1s;
 }
 
 #dealers{
     margin-top: 40px;
     color: white;
     margin-left: 60px;
+    transition-duration: 1s;
 }
 #testride{
     margin-top: 40px;
     color: white;
     margin-left: 60px;
+    transition-duration: 1s;
 }
 #bookonline{
     margin-top: 40px;
     color: white;
     margin-left: 60px;
+    transition-duration: 1s;
 }
 
 .icon{
     margin-top: 40px;
     color: white;
     margin-left: 60px;
+    transition-duration: 1s;
     
 }
 #yezdi_logo{
@@ -124,3 +139,205 @@ body{
     height: 100px;
     margin-top: 30px;
 }
+.buttons{
+    display: flex;
+    
+}
+#testdrive{
+    margin-top: 50px;
+    margin-left: 50px;
+    background:radial-gradient(circle, rgb(107, 2, 2) 0%, rgb(76, 4, 4) 53%);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 1s;
+}
+#booknow{
+    margin-top: 50px;
+    margin-left: 20px;
+    background:radial-gradient(circle, rgb(107, 2, 2) 0%, rgb(76, 4, 4) 53%);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 1s;
+}
+#testdrive:hover{
+    height: 60px;
+    width: 160px;
+    background:radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 53%);
+    color: red;
+    border: 1px solid red;
+
+
+}
+#booknow:hover{
+    height: 60px;
+    width: 160px;
+    background:radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 53%);
+    color: red;
+    border: 1px solid red;
+
+
+}
+
+#menue:hover{
+    color: red;
+    
+    border-radius: 10px;
+    
+}
+#motercycle:hover{
+    color: red;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#dealers:hover{
+    color: red;
+    height: 20px;
+    border-radius: 10px;
+}
+#testride:hover{
+    color: red;
+    height: 20px;
+    border-radius: 10px;
+}
+#bookonline:hover{
+    color: red;
+    height: 20px;
+    border-radius: 10px;
+}
+.icon:hover{
+    color: red;
+}
+@media only screen and (max-width: 500px) {
+    .search{
+        
+        height: 50px;
+        width: 400px;
+
+    }
+    #logo{
+        height: 45px;
+        width: 60px;
+
+
+    }
+    .menue{
+        display: flex;
+        
+
+    }
+    
+    #menue{
+
+        font-size: 10px;
+        width: 60px;
+        height: 30px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+        
+    }
+    #motercycle{
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+        color: black;
+        display: none;
+    }
+    
+    #dealers{
+        font-size:0px;
+        width: 0px;
+        height:0px;
+        display: none;
+    }
+    #testride{
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+        display: none;
+    }
+    #bookonline{
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+        display: none;
+
+    }
+    
+    .icon{
+        color: black;
+        display: none;
+        
+    }
+    #yezdi_logo{
+        width: 0px;
+        height: 0px;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    #perakpng{
+        width: 350px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    #perak-text{
+        margin-top:100px ;
+        margin-left: 60px;
+        width: 250px;
+        height: 150px;
+    
+    }
+    .price{
+        color: white;
+        font-size: 30px;
+        width: 200px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 80px;
+        max-height: 40px;
+    }
+    .showroom{
+        color: rgb(182, 182, 182);
+        margin-top: 80px;
+        margin-left: 90px;
+    }
+
+    .videosandphotos{
+        display: flex;
+        margin-left: 10px;
+    }
+    #menue:hover{
+        color: red;
+        width: 100px;
+        border-radius: 10px;
+        
+    }
+    #testdrive{
+        margin-top: 50px;
+        margin-left: 30px;
+        background:radial-gradient(circle, rgb(107, 2, 2) 0%, rgb(76, 4, 4) 53%);
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        color: white;
+        transition-duration: 1s;
+    }
+    #booknow{
+        margin-top: 50px;
+        margin-left: 5px;
+        background:radial-gradient(circle, rgb(107, 2, 2) 0%, rgb(76, 4, 4) 53%);
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        color: white;
+        transition-duration: 1s;
+    }
+
+
+  }
